@@ -1,0 +1,29 @@
+/* src/styles.css */
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#post-form {
+  margin-bottom: 20px;
+}
+
+#posts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.post-item h2 {
+  margin: 0 0 10px;
+}
+
+.post-item button {
+  margin-right: 5px;
+}

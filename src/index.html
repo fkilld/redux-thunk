@@ -1,0 +1,30 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redux CRUD App</title>
+</head>
+<body>
+  <h1>Redux CRUD Application</h1>
+  
+  <!-- Form for creating/updating posts -->
+  <form id="post-form">
+    <input type="hidden" id="post-id" />
+    <input type="text" id="post-title" placeholder="Title" required />
+    <textarea id="post-body" placeholder="Body" required></textarea>
+    <button type="submit">Save</button>
+  </form>
+
+  <!-- List of posts -->
+  <ul id="posts-list"></ul>
+
+  <!-- Delete Confirmation -->
+  <div id="delete-confirmation" style="display: none;">
+    <p>Are you sure you want to delete this post?</p>
+    <button id="confirm-delete">Yes</button>
+    <button id="cancel-delete">No</button>
+  </div>
+
+</body>
+</html>
